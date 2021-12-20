@@ -31,7 +31,7 @@ direct_checkin_url = 'https://xmuxg.xmu.edu.cn/app/214'
 mail_server_url = 'http://120.77.39.85:8080/mail/daily_report'
 
 
-def checkin(username, passwd, passwd_vpn, use_vpn=True):
+def checkin(username, passwd, passwd_vpn, use_vpn=False):
     output = ""
     if debug:
         driver = webdriver.Edge()
